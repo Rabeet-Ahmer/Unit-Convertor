@@ -90,7 +90,7 @@ def main():
             
             if convert:
                 answer = solution(numbers, units_from, units_to)
-                st.info(answer, icon=":material/check:")
+                st.info(answer)
 
 
 if __name__ == "__main__":
