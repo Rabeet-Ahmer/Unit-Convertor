@@ -42,7 +42,7 @@ def main():
 
             if convert:
                 answer = solution(numbers, units_from, units_to)
-                st.info(answer, icon=":material/check:")
+                st.info(answer)
 
     elif select == "Temperature":
         with col1:
@@ -58,7 +58,7 @@ def main():
 
             if convert:
                 answer = solution(numbers, units_from, units_to)
-                st.info(answer, icon=":material/check:")
+                st.info(answer)
 
     elif select == "Weight":
         with col1:
@@ -74,7 +74,7 @@ def main():
 
             if convert:
                 answer = solution(numbers, units_from, units_to)
-                st.info(answer, icon=":material/check:")
+                st.info(answer)
 
     elif select == "Volume":
         with col1:
